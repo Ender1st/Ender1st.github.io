@@ -1359,7 +1359,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9801ff;
+  background: #83ff53;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2864,7 +2864,7 @@ button {
 }
 .site-subtitle {
   color: #fff;
-  font-size: 1.25vw;
+  font-size: 1.75vw;
   margin-top: 10px;
 }
 .menu {
