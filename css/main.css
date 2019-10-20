@@ -1354,7 +1354,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #247e96;
+  background: #ff3eed;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2820,7 +2820,7 @@ embed {
   width: 320px;
 }
 body {
-  background: url("/images/bg.jpg");
+  background: url("https://i.loli.net/2019/10/17/u9jFABGbphaxDf7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2834,4 +2834,45 @@ body {
   background: #fff;
   opacity: 0.8;
   min-height: 500px;
+}
+.site-nav-toggle {
+  top: 10px;
+}
+.site-nav-toggle,
+button {
+  margin-top: 2px;
+  background: 0 0;
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(255,255,255,0.588);
+}
+.site-title {
+  display: inline-block;
+  font-family: 'Lobster', 'MMonda', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 350%;
+  font-weight: normal;
+  line-height: 1.5;
+  vertical-align: top;
+}
+.site-subtitle {
+  color: #d0d0d0;
+  font-size: 0.8125em;
+  margin-top: 10px;
+}
+.menu {
+  margin-top: 20px;
+  padding-left: 0;
+  text-align: center;
+  width: 470px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.brand {
+  background: rgba(0,0,0,0);
+  border-bottom: none;
+  color: #fff;
+  display: inline-block;
+  line-height: 1.375em;
+  padding: 0 40px;
+  position: relative;
 }
