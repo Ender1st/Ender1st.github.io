@@ -1354,7 +1354,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1a7c69;
+  background: #ff8cff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2849,13 +2849,13 @@ button {
 .site-title {
   display: inline-block;
   font-family: 'Lobster', 'MMonda', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 350%;
+  font-size: 10vw;
   font-weight: normal;
   line-height: 1.5;
   vertical-align: top;
 }
 .site-subtitle {
-  color: #d0d0d0;
+  color: #fff;
   font-size: 0.8125em;
   margin-top: 10px;
 }
