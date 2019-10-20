@@ -1133,6 +1133,11 @@ pre .javascript .function {
   padding-left: 0;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .menu {
+    text-align: left;
+  }
+}
 .menu-item {
   display: inline-block;
   list-style: none;
@@ -1354,7 +1359,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff8cff;
+  background: #ff7faf;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1604,8 +1609,11 @@ pre .javascript .function {
     width: 900px;
   }
 }
+#animate {
+  animation: iconAnimate 1.33s ease-in-out infinite;
+}
 .with-love {
-  color: #808080;
+  color: #ff0000;
   display: inline-block;
   margin: 0 5px;
 }
@@ -2862,7 +2870,6 @@ button {
 .menu {
   margin-top: 20px;
   padding-left: 0;
-  text-align: center;
   width: 470px;
   margin-right: auto;
   margin-left: auto;
